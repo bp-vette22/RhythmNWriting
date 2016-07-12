@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!--
+    Copyright (c) 2012-2016 Adobe Systems Incorporated. All rights reserved.
+
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+
+<head>
+   <title>Rhythm And Writing</title>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+    <!-- This is a wide open CSP declaration. To lock this down for production, see below. -->
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
+    <!-- Good default declaration:
+    * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+    * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+    * Disables use of eval() and inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+        * Enable inline JS: add 'unsafe-inline' to default-src
+        * Enable eval(): add 'unsafe-eval' to default-src
+    * Create your own at http://cspisawesome.com
+    -->
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 'unsafe-inline' https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *" /> -->
+ <link rel="stylesheet" href="/www/css/index.css">
+    <link rel="stylesheet" href="css/rhythm-app.css">
+ <link rel="stylesheet" href="css/font-awesome.css">
+   <!-- Include jQuery Mobile stylesheets-->
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"/>
+
+</head>
+
+<body>
+    <!---------Start wrapper------->
+    <div id="pageone"  data-role="page">
+    <section id="main-wrap" data-role="main" class="ui-content">
+    <div ><a href="#"><i class="fa fa-font-awesome" aria-hidden="true"></i>Home</a> | <a href="/"><i class="fa fa-cog" aria-hidden="true"></i></a>Setting</div>
+     <figure id="home-head"><img alt="home-header" src="img/RhythmWritingBookgetwritecrew.png"/></figure>
+     <section class="main-inner" data-role="page" id="page1" data-transition="slide">
+        <a id="practic-btn" href="/www/pic-lesson.html" class="ui-btn"><img src="img/group-32@2x.png" alt="practice"></a> 
+        <a id="intro-test-btn" href="/www/test-intro.html"><img src="img/group-33@2x.png" alt="test"></a>
+        <a id="meet-crew" href="/"><img src="img/meetthecrew.png" alt="home-meet"></a>
+     </section>
+       </section>
+        <!------// close wrap//---->
+    </div>
+    <!---------End main Wrapper---->
+    
+    
+    <!------Start loader------->
+            <div class="app">
+            <h1>PhoneGap</h1>
+    <div id="deviceready" class="blink">
+    <p class="event listening">Connecting to Device</p>
+    <p class="event received">Device is Ready</p>
+</div>
+  <!-----close loader wrapper here---->
+    </div>
+   <!-----end loader------>
+    
+   <script type="text/javascript" src="/platforms/browser/platform_www/cordova.js"></script>
+   
+<!-- Include the jQuery library--> 
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+   
+    <script src="/www/js/index.js"></script>
+    <script type="text/javascript">
+        app.initialize(); 
+    </script>
+    <script src="https://use.fontawesome.com/926b1cf300.js"></script>
+    <script src="/www/js/menu-sys.js"></script>
+    
+</body>
+
+</html>
