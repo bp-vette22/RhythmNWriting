@@ -1,0 +1,55 @@
+/*------Start Splash page----------*/
+body,html{background: red; margin: 0; padding: 0px; font-family:Helvetica,sans-serif;}
+#main-wrap{width: 95%; margin:0px auto; border:1px solid #fff;}
+#main-wrap2{width:100%; margin:0px auto;}
+#home-head{text-align: center}
+#home-head img{display:inline-block; max-width: 100%; margin:0px auto;}
+.main-inner{ width:100%; padding: 1em 0em}
+.main-inner img{max-width:100%;}
+.main-inner a{ display: block; margin: 0px auto;}
+.top-header{width: 80%; height: 30px; margin: 0px auto;}
+#inside-foot{
+    
+}
+
+#inside-foot img{
+    display: inline-block; float: left; width: 45%;
+}
+
+.lesson-slt{min-height: 500px;}
+
+
+#pen-area{width: 100%; max-height: 300px; background:#fff;}
+.letter-pic-shell {
+    background:#fff url(/www/img/clearwriting.png) repeat-x;
+   
+    width: 28%;
+    min-height: 100px;
+    float: left;
+    margin:6px;
+    border-radius: 100px;
+    text-align: center;
+}
+
+.letter-pic-shell a{
+    font: 34px Helvetica;
+    position: relative;
+    text-decoration: none;
+    top:35px;
+    color:#000;}
+
+#top-utility {
+    color: #fff;
+}
+.letter-sample{width:100%; height: 100px; border: 2px dashed #fff;
+}
+#canvas-shell{width:100%; min-height: 300px; background:#fff; margin-bottom: 1em;}
+
+#test-area{ margin-bottom: 1em;  display:block; border: 3px solid lime;}
+
+#practice-btn{}
+#intro-test-btn{}
+#meet-crew-btn{}
+
+#pageone{}
+#pagetwo{}
